@@ -1,0 +1,32 @@
+{
+  "name": "email-your-rep",
+  "version": "1.0.0",
+  "description": "App to email your rep",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbvtler/email-your-rep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbvtler/email-your-rep/issues"
+  },
+  "homepage": "https://github.com/wbvtler/email-your-rep#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
+  }
+}
